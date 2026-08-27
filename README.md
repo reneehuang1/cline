@@ -47,7 +47,7 @@ Run Cline in your terminal.
 Interactive chat or fully headless
 for CI/CD and scripting.
 
-```
+```bash
 npm i -g cline
 ```
 
@@ -63,7 +63,7 @@ Run many agents in parallel from a
 web-based task board. Each card gets its own
 worktree, auto-commit, and dependency chains.
 
-```
+```bash
 npm i -g kanban
 ```
 
@@ -110,7 +110,7 @@ the JetBrains family.
 
 Build your own AI agents and integrations powered by the same engine that runs the CLI, Kanban, VS Code extension, and JetBrains plugin. Custom tools, multi-agent teams, connectors, scheduled automations, and more.
 
-```
+```bash
 npm install @cline/sdk
 ```
 
@@ -127,7 +127,7 @@ npm install @cline/sdk
 ## Index
 
 | Product | Description | Location | CHANGELOG |
-|---------|------------|--------------|--------------|
+|---------|------------|----------|-----------|
 | **SDK** | Node.js programmatic agent API and extension exports. | [`sdk/`](https://github.com/cline/cline/tree/main/sdk) | [CHANGELOG.md](https://github.com/cline/cline/blob/main/sdk/CHANGELOG.md) |
 | **CLI** | Terminal UI, headless mode, shell commands, and CLI-specific flows. | [`apps/cli/`](https://github.com/cline/cline/tree/main/apps/cli) | [CHANGELOG.md](https://github.com/cline/cline/blob/main/apps/cli/CHANGELOG.md) |
 | **VS Code Extension** | The Marketplace extension and extension host integration. | [`/`](https://github.com/cline/cline/tree/main) (WIP migrating) | [CHANGELOG.md](https://github.com/cline/cline/blob/main/CHANGELOG.md) |
@@ -135,11 +135,11 @@ npm install @cline/sdk
 | **Kanban** | Web-based multi-agent task board. | [`cline/kanban`](https://github.com/cline/kanban) | [CHANGELOG.md](https://github.com/cline/kanban/blob/main/CHANGELOG.md) |
 | **Docs site** | Public documentation pages. | [`docs/`](https://docs.cline.bot/) | - |
 
-## Edits Code Across Your Project
+## Edit Code Across Your Project
 
 Cline reads your project structure, understands the relationships between files, and makes coordinated changes across your codebase. It monitors linter and compiler errors as it works, fixing issues like missing imports, type mismatches, and syntax errors before you even see them. In VS Code and JetBrains, every edit shows up as a diff you can review, modify, or revert. All changes are tracked with checkpoints, so you can easily undo the agent's work.
 
-## Runs Bash Commands
+## Run Bash Commands
 
 Cline executes commands directly in your terminal and watches the output in real time. Install packages, run build scripts, execute tests, deploy applications, manage databases. For long-running processes like dev servers, Cline continues working in the background and reacts to new output as it appears, catching compile errors, test failures, and server crashes as they happen.
 
